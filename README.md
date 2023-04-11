@@ -2,15 +2,8 @@
 
 promina assessment
 
-## Getting Started
+the app start (AppStartPointWidget) by checking is user login or not then return the right view
 
-This project is a starting point for a Flutter application.
+there are 2 main Features (Authentication , PhotosGallery) which are managed by (authRepo,galleryRepo);
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+there are 2 main view (LoginView) , (GalleryView) managed by (Auth cubit) , (gallery cubit);
